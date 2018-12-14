@@ -17,6 +17,6 @@ Neophodno je zadovoljiti sledeće kriterijume:
 
 Tehnički detalji:
 
-1.  Aplikaciju raditi u programskom jeziku JAVA
+1.  Aplikaciju raditi u programskom jeziku C#
 2.	Aplikaciju treba uraditi u „NetBeans“ razvojnom okruženju
 3.	Bazu treba uraditi u „Oracle 11g“ razvojnom okruženju
