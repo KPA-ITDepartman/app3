@@ -1,0 +1,27 @@
+﻿<Page x:Class="Raspored_emisija.RegistrationPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Raspored_emisija"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="RegistrationPage" HorizontalAlignment="Center" VerticalAlignment="Center">
+
+    <Grid Background="White" >
+        <TextBox Margin="361,215,299,215" Width="140" Height="20"/>
+        <TextBox Margin="361,175,299,255" Width="140" Height="20"/>
+        <TextBox Margin="361,129,299,301" Width="140" Height="20" />
+        <Button Content="Potvrdi" HorizontalAlignment="Left" Margin="361,359,0,0" VerticalAlignment="Top" Width="75" Click="PotvrdiClick"/>
+        <Label HorizontalAlignment="Left" Margin="272,168,0,0" VerticalAlignment="Top"/>
+        <Label Content="Ime" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="267,129,0,0"/>
+        <Label Content="Lozinka" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="267,253,0,0"/>
+        <Label Content="Email" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="267,215,0,0" RenderTransformOrigin="-0.184,0.615"/>
+        <Label Content="Prezime" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="267,175,0,0"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="361,259,0,0" VerticalAlignment="Top" Width="140" Height="20"/>
+        <RadioButton Content="Direktor" HorizontalAlignment="Left" Margin="281,308,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="Urednik" HorizontalAlignment="Left" Margin="435,308,0,0" VerticalAlignment="Top"/>
+        <Label Content="Registracija" HorizontalAlignment="Left" Margin="326,43,0,0" VerticalAlignment="Top" Width="142" FontSize="24" FontWeight="Bold"/>
+
+    </Grid>
+</Page>
